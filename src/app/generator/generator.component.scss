@@ -1,5 +1,18 @@
 #generator {
+  // background-color: rgb(194, 255, 209);
+  // height: 300px;
+  // width: 800px;
+}
+
+.generator-palette {
   background-color: rgb(194, 255, 209);
   height: 30vh;
-  width: 80vw;
+  list-style: none;
+  padding: 0;
+  width: 50vh;
+}
+
+.generator-color {
+  height: 20%;
+  width: 100%;
 }
