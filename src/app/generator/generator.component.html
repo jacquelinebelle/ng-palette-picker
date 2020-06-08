@@ -1,0 +1,9 @@
+<div id="generator">
+  <ul class="generator-palette">
+    <li 
+      *ngFor="let color of colors" 
+      class="generator-color"
+      [ngStyle]="{'background-color': color.value}">
+    </li>
+  </ul>
+</div>
