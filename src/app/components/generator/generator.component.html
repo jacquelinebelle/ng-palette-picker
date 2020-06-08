@@ -1,9 +1,9 @@
 <div id="generator">
   <ul class="generator-palette">
     <li 
-      *ngFor="let color of colors" 
+      *ngFor="let color of colors | async" 
       class="generator-color"
-      [ngStyle]="{'background-color': color.value}">
+      [ngStyle]="{'background-color': color.name}">
     </li>
   </ul>
 </div>
