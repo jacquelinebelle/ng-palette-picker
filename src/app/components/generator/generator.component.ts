@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Color } from '../color';
+import { Color } from '../../models/color';
 
 @Component({
   selector: 'app-generator',
@@ -13,7 +13,7 @@ export class GeneratorComponent implements OnInit {
     {id: 3, value: 'yellow'},
     {id: 4, value: 'green'},
     {id: 5, value: 'blue'}
-  ]
+  ];
 
   constructor() { }
 
